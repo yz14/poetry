@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>古诗词鉴赏</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app-container">
+
+        <!-- 主内容区：书籍展开页 -->
+        <main class="book-spread">
+            <!-- 左侧：诗文页 -->
+            <section class="poem-page">
+                <!-- 左下角搜索按钮 -->
+                <div class="corner-search">
+                    <button id="search-toggle" class="search-toggle-btn" title="搜索诗词">
+                        <svg class="search-icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="11" cy="11" r="8"></circle>
+                            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                        </svg>
+                    </button>
+                    <div id="search-container" class="search-container hidden">
+                        <input 
+                            type="text" 
+                            id="search-input" 
+                            class="search-input" 
+                            placeholder="搜索诗词、作者..."
+                            autocomplete="off"
+                        >
+                        <button id="search-close" class="search-close-btn">×</button>
+                        <div id="search-results" class="search-results hidden"></div>
+                    </div>
+                </div>
+                
+                <!-- 右下角页码指示器 -->
+                <div class="corner-indicator">
+                    <span id="current-index">1</span>
+                    <span class="divider">/</span>
+                    <span id="total-count">1</span>
+                    <span class="unit">首</span>
+                </div>
+                
+                <div class="poem-content">
+                    <!-- 诗句区域（竖排从左到右） -->
+                    <div id="poem-lines" class="poem-lines">
+                        <!-- 动态渲染 -->
+                    </div>
+                    
+                    <!-- 分隔线 -->
+                    <div class="poem-divider"></div>
+                    
+                    <!-- 标题、作者、印章（横排一行）+ 导航按钮 -->
+                    <div class="poem-meta-row">
+                        <button id="btn-prev" class="nav-btn-inline" title="上一首">
+                            <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="15 18 9 12 15 6"></polyline>
+                            </svg>
+                        </button>
+                        <div class="poem-meta">
+                            <h1 id="poem-title" class="poem-title"></h1>
+                            <span class="meta-dot">·</span>
+                            <p id="poem-author" class="poem-author"></p>
+                            <div id="poem-seal" class="poem-seal"></div>
+                        </div>
+                        <button id="btn-next" class="nav-btn-inline" title="下一首">
+                            <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="9 18 15 12 9 6"></polyline>
+                            </svg>
+                        </button>
+                    </div>
+                    
+                </div>
+            </section>
+
+            <!-- 书脊 -->
+            <div class="book-spine"></div>
+
+            <!-- 右侧：插图页 -->
+            <section class="illustration-page">
+                <div class="illustration-container">
+                    <img id="poem-image" class="poem-image" src="" alt="诗词配图">
+                </div>
+            </section>
+        </main>
+
+    </div>
+
+    <!-- 模块化JS -->
+    <script src="js/poems.js"></script>
+    <script src="js/render.js"></script>
+    <script src="js/search.js"></script>
+    <script src="js/navigation.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
