@@ -359,7 +359,7 @@ img {
     display: flex;
     flex-direction: row;
     gap: 24px;
-    margin-bottom: 32px;
+    margin-top: 24px;
 }
 
 .poem-line {
@@ -382,7 +382,7 @@ img {
         var(--color-border),
         transparent
     );
-    margin: 24px 0;
+    margin: 16px 0;
 }
 
 /* 诗词元信息（横排一行） */
@@ -577,7 +577,7 @@ img {
     .poem-lines {
         flex-direction: row;
         gap: 16px;
-        margin-bottom: 24px;
+        margin-top: 16px;
     }
     
     .poem-line {
