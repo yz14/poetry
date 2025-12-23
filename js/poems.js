@@ -10,12 +10,12 @@ const PoemsManager = (function() {
     const poemsData = [
         {
             id: 1,
-            title: '静夜思',
-            author: '李白',
+            title: '题都城南庄',
+            author: '崔护',
             dynasty: '唐',
-            lines: ['床前明月光，', '疑是地上霜。', '举头望明月，', '低头思故乡。'],
+            lines: ['去年今日此门中', '人面桃花相映红', '人面不知何处去', '桃花依旧笑春风'],
             image: 'https://pic1.imgdb.cn/item/694a7937ba772b0367e2fbb7.png',
-            seal: '白'
+            seal: '崔'
         },
         {
             id: 2,

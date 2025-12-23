@@ -37,33 +37,33 @@
                     </div>
                 </div>
                 
-                <!-- 右下角页码指示器 -->
-                <div class="corner-indicator">
-                    <span id="current-index">1</span>
-                    <span class="divider">/</span>
-                    <span id="total-count">1</span>
-                    <span class="unit">首</span>
+                <!-- 右下角页码指示器 + 导航按钮 -->
+                <div class="corner-nav">
+                    <button id="btn-prev" class="nav-btn-inline" title="上一首">
+                        <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="15 18 9 12 15 6"></polyline>
+                        </svg>
+                    </button>
+                    <div class="corner-indicator">
+                        <span id="current-index">1</span>
+                        <span class="divider">/</span>
+                        <span id="total-count">1</span>
+                        <span class="unit">首</span>
+                    </div>
+                    <button id="btn-next" class="nav-btn-inline" title="下一首">
+                        <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="9 18 15 12 9 6"></polyline>
+                        </svg>
+                    </button>
                 </div>
                 
                 <div class="poem-content">
-                    <!-- 标题、作者、印章（横排一行）+ 导航按钮 -->
-                    <div class="poem-meta-row">
-                        <button id="btn-prev" class="nav-btn-inline" title="上一首">
-                            <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="15 18 9 12 15 6"></polyline>
-                            </svg>
-                        </button>
-                        <div class="poem-meta">
-                            <h1 id="poem-title" class="poem-title"></h1>
-                            <span class="meta-dot">·</span>
-                            <p id="poem-author" class="poem-author"></p>
-                            <div id="poem-seal" class="poem-seal"></div>
-                        </div>
-                        <button id="btn-next" class="nav-btn-inline" title="下一首">
-                            <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="9 18 15 12 9 6"></polyline>
-                            </svg>
-                        </button>
+                    <!-- 标题、作者、印章（横排一行） -->
+                    <div class="poem-meta">
+                        <h1 id="poem-title" class="poem-title"></h1>
+                        <span class="meta-dot">·</span>
+                        <p id="poem-author" class="poem-author"></p>
+                        <div id="poem-seal" class="poem-seal"></div>
                     </div>
                     
                     <!-- 分隔线 -->

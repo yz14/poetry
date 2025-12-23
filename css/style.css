@@ -253,15 +253,7 @@ img {
     font-size: 14px;
 }
 
-/* === 内联导航按钮（标题两侧） === */
-.poem-meta-row {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 24px;
-    width: 100%;
-}
-
+/* === 导航按钮 === */
 .nav-btn-inline {
     display: flex;
     align-items: center;
@@ -316,11 +308,17 @@ img {
     z-index: 10;
 }
 
-/* 右下角页码 */
-.corner-indicator {
+/* 右下角导航区域 */
+.corner-nav {
     position: absolute;
     right: 16px;
     bottom: 16px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.corner-indicator {
     display: flex;
     align-items: baseline;
     gap: 4px;
@@ -596,18 +594,15 @@ img {
         width: 280px;
     }
     
-    .poem-meta-row {
-        gap: 16px;
-    }
-    
     .corner-search {
         left: 12px;
         bottom: 12px;
     }
     
-    .corner-indicator {
+    .corner-nav {
         right: 12px;
         bottom: 12px;
+        gap: 6px;
     }
 }
 
@@ -652,8 +647,8 @@ img {
         font-size: 13px;
     }
     
-    .poem-meta-row {
-        gap: 10px;
+    .corner-nav {
+        gap: 4px;
     }
     
     .nav-btn-inline {
