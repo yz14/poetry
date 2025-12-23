@@ -19,12 +19,12 @@ const PoemsManager = (function() {
         },
         {
             id: 2,
-            title: '春晓',
-            author: '孟浩然',
+            title: '诗经 周南 关雎',
+            author: '无',
             dynasty: '唐',
-            lines: ['春眠不觉晓，', '处处闻啼鸟。', '夜来风雨声，', '花落知多少。'],
-            image: 'https://images.unsplash.com/photo-1462275646964-a0e3386b89fa?w=600&h=600&fit=crop',
-            seal: '孟'
+            lines: ['关关雎鸠', '在河之洲', '窈窕淑女', '君子好逑'],
+            image: 'https://pic1.imgdb.cn/item/694a7e94ba772b0367e30516.png',
+            seal: '无'
         },
         {
             id: 3,
