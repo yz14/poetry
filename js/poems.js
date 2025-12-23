@@ -14,7 +14,7 @@ const PoemsManager = (function() {
             author: '李白',
             dynasty: '唐',
             lines: ['床前明月光，', '疑是地上霜。', '举头望明月，', '低头思故乡。'],
-            image: 'https://images.unsplash.com/photo-1532978379173-523e16f371f2?w=600&h=600&fit=crop',
+            image: 'https://pic1.imgdb.cn/item/694a7937ba772b0367e2fbb7.png',
             seal: '白'
         },
         {
