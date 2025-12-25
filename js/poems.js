@@ -79,6 +79,15 @@ const PoemsManager = (function() {
             lines: ['枯藤老树昏鸦', '小桥流水人家', '古道西风瘦马', '夕阳西下', '断肠人在天涯'],
             image: 'https://pic1.imgdb.cn/item/694d1cac82ced3073fa70cdf.png',
             seal: '马'
+        },
+        {
+            id: 9,
+            title: '枫桥夜泊',
+            author: '张继',
+            dynasty: '唐',
+            lines: ['月落乌啼霜满天', '江枫渔火对愁眠', '姑苏城外寒山寺', '夜半钟声到客船'],
+            image: 'https://pic1.imgdb.cn/item/694d1cac82ced3073fa70cdf.png',
+            seal: '张'
         }
     ];
 
