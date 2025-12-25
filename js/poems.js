@@ -86,7 +86,7 @@ const PoemsManager = (function() {
             author: '张继',
             dynasty: '唐',
             lines: ['月落乌啼霜满天', '江枫渔火对愁眠', '姑苏城外寒山寺', '夜半钟声到客船'],
-            image: 'https://pic1.imgdb.cn/item/694d1cac82ced3073fa70cdf.png',
+            image: 'https://pic1.imgdb.cn/item/694d200782ced3073fa70f0e.png',
             seal: '张'
         }
     ];
