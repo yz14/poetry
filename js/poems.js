@@ -28,57 +28,57 @@ const PoemsManager = (function() {
         },
         {
             id: 3,
-            title: '登鹳雀楼',
-            author: '王之涣',
-            dynasty: '唐',
-            lines: ['白日依山尽，', '黄河入海流。', '欲穷千里目，', '更上一层楼。'],
-            image: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600&h=600&fit=crop',
-            seal: '王'
-        },
-        {
-            id: 4,
-            title: '相思',
-            author: '王维',
-            dynasty: '唐',
-            lines: ['红豆生南国，', '春来发几枝。', '愿君多采撷，', '此物最相思。'],
-            image: 'https://images.unsplash.com/photo-1490750967868-88aa4486c946?w=600&h=600&fit=crop',
-            seal: '维'
-        },
-        {
-            id: 5,
-            title: '悯农',
-            author: '李绅',
-            dynasty: '唐',
-            lines: ['锄禾日当午，', '汗滴禾下土。', '谁知盘中餐，', '粒粒皆辛苦。'],
-            image: 'https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=600&h=600&fit=crop',
-            seal: '绅'
-        },
-        {
-            id: 6,
             title: '江雪',
             author: '柳宗元',
             dynasty: '唐',
-            lines: ['千山鸟飞绝，', '万径人踪灭。', '孤舟蓑笠翁，', '独钓寒江雪。'],
-            image: 'https://images.unsplash.com/photo-1491002052546-bf38f186af56?w=600&h=600&fit=crop',
+            lines: ['千山鸟飞绝', '万径人踪灭', '孤舟蓑笠翁', '独钓寒江雪'],
+            image: 'https://pic1.imgdb.cn/item/694d15ec82ced3073fa6e13c.png',
             seal: '柳'
         },
         {
-            id: 7,
-            title: '望庐山瀑布',
-            author: '李白',
+            id: 4,
+            title: '滁州西涧',
+            author: '韦应物',
             dynasty: '唐',
-            lines: ['日照香炉生紫烟，', '遥看瀑布挂前川。', '飞流直下三千尺，', '疑是银河落九天。'],
-            image: 'https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?w=600&h=600&fit=crop',
-            seal: '白'
+            lines: ['独怜幽草涧边生', '上有黄鹂深树鸣', '春潮带雨晚来急', '野渡无人舟自横'],
+            image: 'https://pic1.imgdb.cn/item/694d171282ced3073fa6e2e5.png',
+            seal: '韦'
+        },
+        {
+            id: 5,
+            title: '小池',
+            author: '杨万里',
+            dynasty: '宋',
+            lines: ['泉眼无声惜细流', '树阴照水爱晴柔', '小荷才露尖尖角', '早有蜻蜓立上头'],
+            image: 'https://pic1.imgdb.cn/item/694d195282ced3073fa70a2c.png',
+            seal: '杨'
+        },
+        {
+            id: 6,
+            title: '春晓',
+            author: '孟浩然',
+            dynasty: '唐',
+            lines: ['春眠不觉晓', '处处闻啼鸟', '夜来风雨声', '花落知多少'],
+            image: 'https://pic1.imgdb.cn/item/694d1a8082ced3073fa70b3e.png',
+            seal: '孟'
+        },
+        {
+            id: 7,
+            title: '绝句',
+            author: '杜甫',
+            dynasty: '唐',
+            lines: ['两个黄鹂鸣翠柳', '一行白鹭上青天', '窗含西岭千秋雪', '门泊东吴万里船'],
+            image: 'https://pic1.imgdb.cn/item/694d1b0e82ced3073fa70bb6.png',
+            seal: '杜'
         },
         {
             id: 8,
-            title: '早发白帝城',
-            author: '李白',
-            dynasty: '唐',
-            lines: ['朝辞白帝彩云间，', '千里江陵一日还。', '两岸猿声啼不住，', '轻舟已过万重山。'],
+            title: '天净沙 秋思',
+            author: '马致远',
+            dynasty: '元',
+            lines: ['枯藤老树昏鸦', '小桥流水人家', '古道西风瘦马', '夕阳西下', '断肠人在天涯'],
             image: 'https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=600&h=600&fit=crop',
-            seal: '白'
+            seal: '马'
         }
     ];
 
