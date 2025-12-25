@@ -77,7 +77,7 @@ const PoemsManager = (function() {
             author: '马致远',
             dynasty: '元',
             lines: ['枯藤老树昏鸦', '小桥流水人家', '古道西风瘦马', '夕阳西下', '断肠人在天涯'],
-            image: 'https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=600&h=600&fit=crop',
+            image: 'https://pic1.imgdb.cn/item/694d1cac82ced3073fa70cdf.png',
             seal: '马'
         }
     ];
